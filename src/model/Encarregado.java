@@ -4,9 +4,10 @@ public class Encarregado extends Pessoa{
 	private String contacto;
 	private String altContacto;
 
-	public Encarregado(int id, String nome, String data, int cartaoCidadao, String contacto) {
+	public Encarregado(int id, String nome, String data, int cartaoCidadao, String contacto, String altContacto) {
 		super(id, nome, data, cartaoCidadao);
 		this.contacto = contacto;
+		this.altContacto = altContacto;
 	}
 
 	public String getContacto() {
